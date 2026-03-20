@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3><a href="jmanerus.github.io/Projekti">Takaisin etusivulle</a></h3>
+    <h1>Tällä sivulla olen kerrannut taulukkojen luomista</h1>
+
+    <p>Taulukon saa luotua "Table" komennolla, ja sen reunoihin voi vaikuttaa "Border=" komennolla</p>
+    <p>Alla olevassa taulukossa olen reunoiksi merkannut 5</p>
+
+    <table border="5">
+        <tr>
+            <th>Luennot</th>
+            <th>Ma</th>
+            <th>Ti</th>
+            <th>Ke</th>
+            <th>To</th>
+            <th>Pe</th>
+        </tr>
+        <tr>
+            <th>8.00</th>
+            <td rowspan="2">Webo</td>
+            <td colspan="3"></td>
+            <td>Mekaniikka</td>
+        </tr>
+        <tr>
+            <th>9.00</th>
+            <td>Mekaniikka</td>
+            <td rowspan="2">Mekaniikka</td>
+            <td>Yrittäjyys</td>
+            <td>IOT</td>
+        </tr>
+        <tr>
+            <th>10.00</th>
+            <td colspan="2"></td>
+            <td>Yrittäjyys</td>
+            <td>IOT</td>
+        </tr>
+    </table>
+    <p>rivejä sekä sarakkeita voi yhdistää "rowspan" ja "colspan" attribuuteilla</p>
+    <p>Taulukkoon saa lisäksi korostettua osia, korvaamalla "td" attribuutin "th" attribuudilla
+    </p>
+</body>
+</html>
